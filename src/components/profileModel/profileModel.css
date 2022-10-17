@@ -1,0 +1,26 @@
+.profile-model-content{
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+}
+@media only screen and (max-width: 1000px) {
+    .profile-model-content{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .profile-model-content{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .profile-model-content{
+        width: 90%;
+    }
+}

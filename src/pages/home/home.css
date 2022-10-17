@@ -1,0 +1,36 @@
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 247);
+}
+.home-1{
+    flex: 2;
+    background-color: white;
+}
+.home-2{
+    flex: 5.5;
+}
+.home-3{
+    flex: 4;
+}
+@media only screen and (max-width: 1000px) {
+    .home-1{
+        flex: 1;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .home-3,.home-1{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 750px) {
+    .home{
+        flex-direction: column-reverse;
+    }
+    .home-1{
+        display: none;
+    }
+    
+}

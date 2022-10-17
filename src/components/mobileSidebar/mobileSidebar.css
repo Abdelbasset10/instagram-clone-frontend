@@ -1,0 +1,27 @@
+.mobile-sidebar{
+    display: none;
+    width:100%;
+    background-color: white;
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+    border-top: 1px solid gray ;
+}
+.mobile-sidebar-items{
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-sidebar-items img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 750px) {
+    .mobile-sidebar{
+        display: block;
+    }
+    
+}

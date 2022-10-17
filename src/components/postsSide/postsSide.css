@@ -1,0 +1,99 @@
+.posts-padding{
+    padding: 2rem;
+}
+.posts-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.post{
+    width: 80%;
+    border: 1px solid rgb(202, 200, 200);
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    background-color: white;
+}
+.post-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+.post-up img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.post-up-user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.post-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.postImage img{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+.post-down{
+    padding: 10px;
+}
+.post-down-icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.post-down-icon{
+    font-size: 25px;
+    cursor: pointer;
+    color: gray;
+}
+.post-down-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+.comment{
+    border-top: 1px solid gray;
+    padding-top: 1rem;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.comment form{
+    display: flex;
+    justify-content: space-between;
+}
+.comment form input{
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.comment form button{
+    color: #2B82FB;
+    border: none;
+    width: 15%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+    .posts-padding{
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+    .posts-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .post{
+        width: 100%;
+    }
+}

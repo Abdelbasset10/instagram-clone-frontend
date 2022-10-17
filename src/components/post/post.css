@@ -1,0 +1,18 @@
+.edit-post-div{
+    width: 8rem;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.edit-post-div p{
+    cursor: pointer;
+}
+.edit-post-div p:hover{
+    color: #2B82FB;
+}
+.edit-post-div >:nth-child(1){
+    margin-bottom: 1rem;
+}
