@@ -3,7 +3,6 @@ import {useDispatch, useSelector} from 'react-redux'
 import {OPEN_POST_MODEL} from '../../redux/models/actionTypes'
 import './mobileSidebar.css'
 import cat from '../../images/Cat03.jpg'
-import { items } from '../../staticData'
 import { Link } from 'react-router-dom'
 
 import {AiFillHome, AiFillHeart} from 'react-icons/ai'
